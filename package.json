@@ -1,6 +1,6 @@
 {
     "name": "my-func",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "devDependencies": {
         "@commitlint/cli": "^19.5.0",
         "@commitlint/config-conventional": "^19.5.0",
@@ -15,7 +15,7 @@
         "husky": "^9.1.6"
     },
     "scripts": {
-        "commit": "git-cz",
+        "commit": "czg",
         "changelog": "conventional-changelog  -i CHANGELOG.md -p angular -s -r 0",
         "prepare": "husky init",
         "release": "semantic-release"
